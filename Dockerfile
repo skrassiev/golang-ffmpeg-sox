@@ -8,6 +8,8 @@ MAINTAINER skrassiev <bg2128506@gmail.com>
 RUN \
   apt-get update \
             --quiet \
+  && apt-get install sox \
+            --yes \
   && apt-get install \ 
             --yes \
             --no-install-recommends \
